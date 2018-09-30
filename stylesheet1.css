@@ -1,0 +1,130 @@
+
+.wpbody
+{
+    background-color:white;
+    margin: 0;
+}
+
+.header
+{     
+  background-image: url(images/cover6.jpg);
+/*
+   padding: 100px;*/
+    background-repeat: no-repeat;
+   background-size: cover;
+
+/*    background-color: darkorange;*/
+    padding: 60px;
+    
+    background-size: cover;
+	background-position:center;
+	
+/*    align-content: center; */
+/*    image */
+}
+.tab{
+    max-height: inherit;
+    max-width: 100%;
+    float:none;
+    
+    
+}
+
+.blinking{
+    
+  animation: blinker 1s linear infinite;
+    font-style:oblique;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.dp
+{  ;
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ddd;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    
+ 
+    
+}
+.name
+{   
+    font-size: 10px;
+    display: block;
+    margin: 0%;
+    padding: 0%;
+/*    position: relative;*/
+    
+}
+/*########Nav bar##########*/
+nav
+{
+  width: 100%;
+    margin: 0;
+    
+    
+}
+nav ul{
+    background-color: #eee;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ul.topnav li
+{
+    list-style: none;
+    float: left;
+    
+}
+
+ul.topnav li.topnav-right
+{
+    float: right;
+}
+
+ul.topnav li a
+{display: block;
+ text-decoration: none;
+ min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: gray;
+    
+    
+}
+ul.topnav li a:hover{
+    background-color: #0080ff;
+    color: white;
+}
+
+ul.topnav li.dropdownIcon
+{
+    display: none;
+}
+
+
+/*#############3mobile############*/
+@media screen and (max-width: 680px)
+{
+    ul.topnav li:not(:nth-child(1)){display:  none;}  
+    
+    ul.topnav li.dropdownIcon{
+        display: block;
+        float: right;
+        font-size: 10px;
+    }
+    .header
+    {
+        background-size: cover;
+    }
+}
