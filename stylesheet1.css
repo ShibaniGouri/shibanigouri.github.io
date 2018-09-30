@@ -4,14 +4,7 @@
     background-color:white;
     margin: 0;
 }
-.header{
-/*
-    background: -moz-linear-gradient(45deg, #a0d3b1 0%, #29b8e5 26%, #c5eab2 60%, #c5eab2 60%, #a0d3aa 75%, #a0d3aa 75%, #a0d3aa 79%, #a0d3aa 79%, #a0d3aa 86%, #bce0ee 100%);
-    background: -webkit-linear-gradient(45deg, #a0d3b1 0%,#29b8e5 26%,#c5eab2 60%,#c5eab2 60%,#a0d3aa 75%,#a0d3aa 75%,#a0d3aa 79%,#a0d3aa 79%,#a0d3aa 86%,#bce0ee 100%);
-    background: linear-gradient(45deg, #a0d3b1 0%,#29b8e5 26%,#c5eab2 60%,#c5eab2 60%,#a0d3aa 75%,#a0d3aa 75%,#a0d3aa 79%,#a0d3aa 79%,#a0d3aa 86%,#bce0ee 100%); 
-*/
-/*    colour*/
-}
+
 .header
 {     
   background-image: url(images/cover2.jpg);
