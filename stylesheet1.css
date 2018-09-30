@@ -1,0 +1,111 @@
+
+.wpbody
+{
+    background-color:white;
+    margin: 0;
+}
+.header{
+/*
+    background: -moz-linear-gradient(45deg, #a0d3b1 0%, #29b8e5 26%, #c5eab2 60%, #c5eab2 60%, #a0d3aa 75%, #a0d3aa 75%, #a0d3aa 79%, #a0d3aa 79%, #a0d3aa 86%, #bce0ee 100%);
+    background: -webkit-linear-gradient(45deg, #a0d3b1 0%,#29b8e5 26%,#c5eab2 60%,#c5eab2 60%,#a0d3aa 75%,#a0d3aa 75%,#a0d3aa 79%,#a0d3aa 79%,#a0d3aa 86%,#bce0ee 100%);
+    background: linear-gradient(45deg, #a0d3b1 0%,#29b8e5 26%,#c5eab2 60%,#c5eab2 60%,#a0d3aa 75%,#a0d3aa 75%,#a0d3aa 79%,#a0d3aa 79%,#a0d3aa 86%,#bce0ee 100%); 
+*/
+/*    colour*/
+}
+.header
+{     
+  background-image: url(res/cover2.jpg);
+   padding: 10px;
+    background-repeat: no-repeat;
+   background-size: cover;
+/*    align-content: center; */
+/*    image */
+}
+
+.dp
+{  ;
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ddd;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    
+ 
+    
+}
+.name
+{   
+    font-size: 10px;
+    display: block;
+    margin: 0%;
+    padding: 0%;
+/*    position: relative;*/
+    
+}
+/*########Nav bar##########*/
+nav
+{
+  width: 100%;
+    margin: 0;
+    
+    
+}
+nav ul{
+    background-color: #eee;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ul.topnav li
+{
+    list-style: none;
+    float: left;
+    
+}
+
+ul.topnav li.topnav-right
+{
+    float: right;
+}
+
+ul.topnav li a
+{display: block;
+ text-decoration: none;
+ min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: gray;
+    
+    
+}
+ul.topnav li a:hover{
+    background-color: #0080ff;
+    color: white;
+}
+
+ul.topnav li.dropdownIcon
+{
+    display: none;
+}
+
+
+/*#############3mobile############*/
+@media screen and (max-width: 680px)
+{
+    ul.topnav li:not(:nth-child(1)){display:  none;}  
+    
+    ul.topnav li.dropdownIcon{
+        display: block;
+        float: right;
+        font-size: 10px;
+    }
+    .header
+    {
+        background-size: cover;
+    }
+}
